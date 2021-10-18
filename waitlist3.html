@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="waitlist3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Waitlist</title>
+</head>
+<body>
+
+    <h1 id="restaurant">Restaurant Name</h1>
+
+    <div class="join">
+    <h2>Join Our Waitlist</h2>
+    <button id="drop" class="arrow">
+        <i class="fas fa-long-arrow-alt-right"></i>
+    </button>
+    </div>
+
+     <form class="modal" id="info-modal">
+        <h3>Customer Info</h3>
+        <div class="infomodal">
+            <div class="name info">Name
+                <br>
+                <input id="inputname" type="text" placeholder="First and Last">
+            </div>
+        
+            <div class="phone info">Phone
+                <br>
+                <input type="text" id="phone" placeholder="000-000-0000">
+            </div>
+            <div class="party ">
+                <div class="size">
+                    <p>Size</p>
+                    <select id="size">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                    <p class="twenty-one">21+</p>
+                    <span id="checkbox" class="age"><i class="fas fa-check checked"></i></span>
+                </div>
+                <button id="submit" type="submit" class="submit">
+                    Join
+                </button>
+            </div>
+        </div>
+     </form>
+
+     <ul class="waitlist-container" id="waitlist-container">
+         
+        <li class="party-waiting">
+            <p class="party-name" id="party-name">Samuel Jackson</p>
+            <p class="party-size" id="party-size">3</p>
+            <p class="last-four" id="last-four">0987</p>
+            <i class="far fa-check-circle" id="remove" class="remove"></i>
+        </li> 
+    </ul>   
+    
+    <!-- Remove from list -->
+
+    <!-- <div class="remove-modal">
+        <h3>Seated?</h3>
+        <div id="confirm confirm-display">
+            <div class="yes confirm" id="yes">Yes</div>
+            <div class="no confirm" id="no">No</div>
+        </div>  
+    </div> -->
+
+     
+    <script src="waitlist4.js"></script>
+    <script src="showModal.js"></script>
+</body>
+</html>
