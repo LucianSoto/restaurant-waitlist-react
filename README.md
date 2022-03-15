@@ -1,4 +1,4 @@
-# Restaurant_Waitlist_LXBX
+# Restaurant-waitlist-react
  Restaurant Waitlist App
 
 After going to several restaurants that did not have a decent way to manage wait times for the large number of customers they serve. I decided to create a simple app for them to use.
